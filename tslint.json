@@ -1,0 +1,54 @@
+{
+  "extends": "./tslint.electron.json",
+  "rulesDirectory": [
+    "codelyzer"
+  ],
+  "rules": {
+    "no-console": [
+      true,
+      "assert",
+      "clear",
+      "count",
+      "countReset",
+      "debug",
+      "dir",
+      "dirxml",
+      "exception",
+      "group",
+      "groupCollapsed",
+      "groupEnd",
+      "info",
+      "log",
+      "profile",
+      "profileEnd",
+      "table",
+      "time",
+      "timeEnd",
+      "timeLog",
+      "timeStamp",
+      "trace",
+      "warn"
+    ],
+    "banana-in-box": true,
+    "contextual-life-cycle": true,
+    "decorator-not-allowed": true,
+    "no-input-rename": true,
+    "no-output-on-prefix": true,
+    "no-output-rename": true,
+    "prefer-output-readonly": true,
+    "use-life-cycle-interface": true,
+    "use-pipe-decorator": true,
+    "use-pipe-transform-interface": true,
+    "angular-whitespace": [
+      true,
+      "check-interpolation",
+      "check-pipe",
+      "check-semicolon"
+    ],
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "use-host-property-decorator": true,
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true
+  }
+}
