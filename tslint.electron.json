@@ -177,11 +177,6 @@
     ],
     "eofline": true,
     "import-spacing": true,
-    "indent": [
-      true,
-      "spaces",
-      2
-    ],
     "max-line-length": [
       true,
       140
@@ -251,6 +246,13 @@
     "ter-func-call-spacing": [
       true,
       "never"
+    ],
+    "ter-indent": [
+      true,
+      4,
+      {
+        "SwitchCase": 1
+      }
     ],
     "object-curly-spacing": [
       true,
