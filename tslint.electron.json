@@ -25,6 +25,7 @@
       ]
     ],
     "member-access": [
+      true,
       "check-accessor",
       "check-constructor",
       "check-parameter-property"
@@ -46,11 +47,9 @@
     "no-var-requires": true,
     "only-arrow-functions": true,
     "prefer-for-of": true,
-    "promise-function-async": true,
     "typedef": [
       true,
       "call-signature",
-      "arrow-call-signature",
       "property-declaration",
       "member-variable-declaration"
     ],
@@ -97,7 +96,6 @@
     "no-dynamic-delete": true,
     "no-empty": true,
     "no-eval": true,
-    "no-floating-promises": true,
     "no-for-in-array": true,
     "no-inferred-empty-object-type": true,
     "no-invalid-template-strings": true,
@@ -106,7 +104,6 @@
       "check-function-in-method"
     ],
     "no-misused-new": true,
-    "no-object-literal-type-assertion": true,
     "no-return-await": true,
     "no-shadowed-variable": true,
     "no-sparse-arrays": true,
@@ -126,11 +123,9 @@
     "restrict-plus-operands": true,
     "use-isnan": true,
     "no-default-export": true,
-    "no-duplicate-imports": true,
     "no-mergeable-namespace": true,
     "no-require-imports": true,
     "prefer-const": true,
-    "prefer-readonly": true,
     "array-type": [
       true,
       "array"
